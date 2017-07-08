@@ -217,8 +217,14 @@ console.log(dirty30(31, 0, 1));
  * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
  * Console.log your result.
 */ 
-
-
+function daClub(cover, age){
+	if((cover + age) >= 21){
+		return "Welcome to the Legends Lounge";
+	}else{
+		return "Chuck E Cheese is across the street."
+	}
+}
+console.log(daClub(1,0));
 /*
  * #12
  * Function - graduation
