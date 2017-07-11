@@ -273,7 +273,7 @@ function moneyTrain(speed){
 		return "You are riding an Amtrak.";
 		
 	}else{
-
+r
 return "Now you ballin' in the Shikansen!";
 	}
 }
@@ -291,6 +291,20 @@ console.log(moneyTrain(99));
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 21;
+var doughnutPrice = 3;
+var doughnutBought = 0;
+
+function buyDoughnut(){
+ if(budget >= doughnutPrice){ 
+  budget -= doughnutPrice;
+  doughnutBought++;
+ }
+}
+
+buyDoughnut();
+console.log(budget);
+console.log(doughnutBought);
 
 
 
