@@ -67,6 +67,8 @@ console.log(login("test1234"));
 function isGreaterThan(first, second){
 	if (first > second){
 		return true;
+	}else{
+		return false;
 	}
 }
 console.log(isGreaterThan(3, 2));
@@ -273,7 +275,7 @@ function moneyTrain(speed){
 		return "You are riding an Amtrak.";
 		
 	}else{
-r
+		
 return "Now you ballin' in the Shikansen!";
 	}
 }
@@ -336,7 +338,10 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 4"
  * "Player: 5"
 */
-
+var Players = ["Player: 1", "Player: 2", "Player: 3", "Player: 4", "Player: 5"];
+for (var i = 0; i<Players.length; i++){
+	console.log(Players[i]);
+}
 
 /* 
  * #16
